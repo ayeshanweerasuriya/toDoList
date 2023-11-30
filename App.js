@@ -8,6 +8,7 @@ import {
   TouchableOpacity,
   Keyboard,
   ScrollView,
+  SafeAreaView,
 } from "react-native";
 import Task from "./components/Task";
 
@@ -28,7 +29,7 @@ export default function App() {
   };
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       {/* Added this scroll view to enable scrolling when list gets longer than the page */}
       <ScrollView
         contentContainerStyle={{
@@ -73,7 +74,7 @@ export default function App() {
           </View>
         </TouchableOpacity>
       </KeyboardAvoidingView>
-    </View>
+    </SafeAreaView>
   );
 }
 
