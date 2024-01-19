@@ -41,7 +41,7 @@ export default function App() {
         <View style={styles.tasksWrapper}>
           <Text style={styles.sectionTitle}>Today's tasks</Text>
           <View style={styles.items}>
-            {/* This is where the tasks will go! */}
+            {/* This is where the tasks will go! (map)*/}
             {taskItems.map((item, index) => {
               return (
                 <TouchableOpacity
