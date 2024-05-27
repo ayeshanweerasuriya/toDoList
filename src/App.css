@@ -1,0 +1,209 @@
+.to-do-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.to-do-container {
+  display: flex;
+  flex-direction: row;
+  width: 96%;
+  height: 88px;
+  background-color: #ff4f4f;
+  align-content: center;
+  border-radius: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.to-do-container.completed {
+  background-color: #ffabab;
+}
+
+.to-do-container:hover {
+  border: 2px solid #4d4d4d;
+}
+
+.to-do-checkbox {
+  color: white;
+  font-size: 40px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  align-self: center;
+  line-height: 62px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.to-do-text {
+  color: white;
+  font-size: 24px;
+  height: fit-content;
+  align-self: center;
+  font-family: "Open Sans";
+  font-weight: normal;
+  margin-left: 0px;
+  overflow-y: scroll;
+  height: fit-content;
+  max-height: 88px;
+  width: 100%;
+}
+
+/* Hide scrollbar for WebKit browsers (Chrome, Safari) */
+.to-do-text::-webkit-scrollbar {
+  display: none;
+}
+
+/* Optional: Hide scrollbar for Firefox */
+.to-do-text {
+  scrollbar-width: none;
+}
+
+.to-do-delete {
+  background-color: #ff4f4f;
+  border: none;
+  color: white;
+  font-size: 42px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  align-self: center;
+  line-height: 62px;
+  margin-right: 12px;
+  margin-left: auto;
+}
+
+.to-do-delete.completed {
+  background-color: #ffabab;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 120px;
+  margin-bottom: 6px;
+  border-bottom: 4px solid #4d4d4d;
+  width: 98%;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-title {
+  color: #4d4d4d;
+  font-size: 56px;
+  height: fit-content;
+  align-self: center;
+  font-family: "Open Sans";
+  font-weight: normal;
+  margin-left: 20px;
+}
+
+.header-add-task {
+  background-color: #ff4f4f;
+  width: 80px;
+  height: 80px;
+  align-self: center;
+  border-radius: 8px;
+  margin-right: 20px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header-add-task-text {
+  color: white;
+  align-self: center;
+  font-size: 48px;
+  line-height: 36px;
+}
+
+.pop-up-container {
+  height: 100dvh;
+  width: 100dvw;
+  background-color: none;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-left: -8px;
+  margin-top: -8px;
+}
+
+.pop-up {
+  width: 80%;
+  height: 50%;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pop-up-title {
+  color: #4d4d4d;
+  font-size: 48px;
+  height: fit-content;
+  align-self: center;
+  font-family: "Open Sans";
+  font-weight: normal;
+  margin-top: 12px;
+  margin-bottom: 24px;
+  text-align: center;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.pop-up-input {
+  height: auto;
+  margin-top: auto;
+  margin-bottom: 12px;
+  height: 100%;
+  width: 90%;
+  border: 2px solid #4d4d4d;
+  border-radius: 8px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.pop-up-button-container {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.pop-up-button {
+  color: #4d4d4d;
+  font-size: 28px;
+  height: fit-content;
+  align-self: center;
+  font-family: "Open Sans";
+  font-weight: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 8px;
+  border: none;
+  color: white;
+}
+
+.back {
+  background-color: #ff4f4f;
+}
+
+.add {
+  background-color: #00c31a;
+}
