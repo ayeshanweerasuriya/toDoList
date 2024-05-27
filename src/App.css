@@ -9,7 +9,7 @@
   flex-direction: row;
   width: 96%;
   height: 88px;
-  background-color: #ff4f4f;
+  background-color: #2640ff;
   align-content: center;
   border-radius: 8px;
   margin-top: 8px;
@@ -19,7 +19,7 @@
 }
 
 .to-do-container.completed {
-  background-color: #ffabab;
+  background-color: #4c34ff;
 }
 
 .to-do-container:hover {
@@ -63,7 +63,7 @@
 }
 
 .to-do-delete {
-  background-color: #ff4f4f;
+  background-color: #4c34ff;
   border: none;
   color: white;
   font-size: 42px;
@@ -77,7 +77,7 @@
 }
 
 .to-do-delete.completed {
-  background-color: #ffabab;
+  background-color: #4c34ff;
 }
 
 .header-container {
@@ -106,7 +106,7 @@
 }
 
 .header-add-task {
-  background-color: #ff4f4f;
+  background-color: #4c34ff;
   width: 80px;
   height: 80px;
   align-self: center;
@@ -201,7 +201,7 @@
 }
 
 .back {
-  background-color: #ff4f4f;
+  background-color: #532cff;
 }
 
 .add {
